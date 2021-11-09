@@ -1,0 +1,143 @@
+@media screen and (max-width: 1200px) {
+    .header-texts h1{
+        font-size: 22px;
+    }
+
+    .header-texts {
+        padding: 50px 0;
+    }
+
+    .container .add-text h4 {
+        font-size: 18px;
+    }
+
+    .container .add-text h4 p {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .main-header {
+        height: 30vh;
+    }
+
+    .nav .nav-links a {
+        margin: 0 7px;
+        font-size: 9px;
+        font-weight: bold;
+    }
+
+    .nav img {
+        width: 100px;
+    }
+
+    .nav {
+        height: 50px;
+    }
+
+    .header-texts h1 {
+        width: 100%;
+    }
+    
+    .header-texts p {
+        width: 100%;
+    }
+
+    .services {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .gallry {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .team {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .menu-buttons {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 0;
+        line-height: 50px;
+        color: white;
+        transition: .5s;
+        cursor: pointer;
+        outline: none;
+    }
+
+    .close-menu {
+        display: none;
+    }
+
+    .menu-buttons:hover {
+        color: #e84543;
+        text-align: center;
+    }
+
+    .nav .nav-links {
+        background-color: white;
+        position: absolute;
+        top: 55px;
+        right: -50%;
+        width: 150px;
+        padding-left: 20px;
+        transition: .5s;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+
+    .nav .nav-links a {
+        display: block;
+        font-size: 12px;
+        margin: 20px 0;
+        color: gray;
+    }
+
+    .services {
+        grid-template-columns: 100%;
+    }
+
+    .gallry {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .team {
+        grid-template-columns: 100%;
+    }
+
+    .advertising {
+        grid-template-columns: 100%;
+    }
+
+    .footer-texts {
+        grid-template-columns: 100%;
+        padding: 20px;
+    }
+
+    .f-text {
+        margin: 50px 0;
+    }
+
+    .header-layer {
+        padding: 0 5%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .gallry {
+        grid-template-columns: 100%;
+        padding: 0 10%;
+    }
+
+    .container .add-text {
+        padding: 20px 10%;
+    }
+}
+
+
